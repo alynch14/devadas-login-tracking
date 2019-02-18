@@ -1,0 +1,9 @@
+package com.example.timetracker.userclasses;
+
+public class UserNotFoundException extends Exception {
+
+    @Override
+    public String getMessage() {
+        return "User not found in the database. Please try again.";
+    }
+}

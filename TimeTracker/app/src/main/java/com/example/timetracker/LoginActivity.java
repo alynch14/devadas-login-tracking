@@ -31,6 +31,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.objectbox.BoxStore;
+
 import static android.Manifest.permission.READ_CONTACTS;
 
 /**
@@ -60,10 +62,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    private BoxStore boxStore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        boxStore = MyObjectBox.builder
         setContentView(R.layout.activity_login);
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
