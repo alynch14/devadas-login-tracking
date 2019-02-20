@@ -5,7 +5,7 @@ import io.objectbox.annotation.Id;
 import io.objectbox.query.QueryBuilder;
 
 @Entity
-public  class User {
+public class User {
     @Id
     long myId;
     private String username;
