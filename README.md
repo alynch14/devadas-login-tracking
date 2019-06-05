@@ -8,7 +8,7 @@ For onboarding developers please install the following software:
 
 #### Mac Users
 
-#####Homebrew
+##### Homebrew
 
 Paste the following in your terminal : /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 It will download Homebrew into the usr/local folder
@@ -19,7 +19,7 @@ brew --version
 ```
 Should show current version  2.1.4
 
-#####Git
+##### Git
 Run following command in terminal:
 ```shell
 brew install git
@@ -30,7 +30,7 @@ git --version
 ```
 Should show current version 2.21.0
 
-#####Node
+##### Node
 Run following command in terminal:
 ```shell
 brew install node
@@ -41,7 +41,7 @@ node --version
 ```
 Should show current version  12.3.1
 
-#####Ansible
+##### Ansible
 Run following command in terminal:
 ```shell
 brew install ansible
@@ -52,7 +52,7 @@ ansible --version
 ```
 Should show current version 2.8.0
 
-#####FFMpeg
+##### FFMpeg
 Run following commans in terminal:
 ```shell
 brew install libvpx
@@ -64,19 +64,19 @@ ffmpeg --version
 ```
 Should show current version 4.1.3
 
-###Additional Software and VPN
+### Additional Software and VPN
 
-#####MediFor VPN
+##### MediFor VPN
 
 To connect to the MediForVPN navigate to the following link: https://mediforprogram.com/wiki/display/MEDIFOR/Connect+to+VPN
 
 You will also need to generate an SSH key for access to the VPN
 
-#####Analytic-Worker
+##### Analytic-Worker
 
 Ensure that you have maintainer access to the Analytic-Worker repository
 
-#####Docker & Containers
+##### Docker & Containers
 
 Navigate to the following link to install Docker: https://www.docker.com/
 
@@ -94,7 +94,7 @@ docker-compose up
 ```
 This will pull down all the containers...it will take some time
 
-###Running the MediFor Demo
+### Running the MediFor Demo
 
 For node modules, in the root, client and server directories run:
 ```script
